@@ -3,7 +3,7 @@
     "beforeDevCommand": "cd src-ember && yarn start",
     "beforeBuildCommand": "cd src-ember && yarn build",
     "devPath": "http://localhost:4200",
-    "distDir": "../src-ember/dist/index.html",
+    "distDir": "../src-ember/dist",
     "withGlobalTauri": true
   },
   "package": {
