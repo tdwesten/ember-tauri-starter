@@ -1,9 +1,9 @@
 {
   "build": {
-    "beforeDevCommand": "cd src && yarn start",
-    "beforeBuildCommand": "cd src && yarn build",
+    "beforeDevCommand": "cd src-ember && yarn start",
+    "beforeBuildCommand": "cd src-ember && yarn build",
     "devPath": "http://localhost:4200",
-    "distDir": "/src/dist",
+    "distDir": "../src-ember/dist/index.html",
     "withGlobalTauri": true
   },
   "package": {
@@ -27,7 +27,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.tauri.dev",
+      "identifier": "com.ember-tauri-demo.dev",
       "targets": "all"
     },
     "security": {
